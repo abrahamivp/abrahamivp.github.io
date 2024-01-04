@@ -83,6 +83,12 @@ p {
 	border-radius: 10px;
 	margin-top: 200px;
 }
+@media (min-width: 1090px) {
+	.photogallery-resize, .reception-page{
+		max-width: 40%;
+		margin-top: 0px !important;
+	}
+}
 h3 {
 	color: darkgray;
 }
@@ -104,6 +110,7 @@ h3 {
 	margin: 1.5em auto;
 	text-align: center;
 }
+
 .page-section#story {
 	background: url('../images/foto5.jpg') bottom center no-repeat;
 	background-size: cover;
@@ -112,10 +119,12 @@ h3 {
 	background: url('../images/foto4.jpg') bottom center no-repeat;
 	background-size: cover;
 }
+
 .page-section#rsvp {
 	background: url('../images/foto3.jpg') center center no-repeat;
 	background-size: cover;
 }
+
 .page-section#registry {
 	background: url('../images/foto2.jpg') bottom center no-repeat;
 	background-size: cover;
@@ -123,6 +132,21 @@ h3 {
 .page-section#photos {
 	background: url('../images/bg7_1920_web.jpg') top center no-repeat;
 	background-size: cover;
+}
+@media (min-width: 1090px) {
+	.page-section#story {
+		background: url('../images/foto5_ancha.jpg') bottom center no-repeat;
+		background-size: cover;
+	}
+	.page-section#reception {
+		background: url('../images/foto4_ancha.jpg') bottom center no-repeat;
+		background-size: cover;
+	}	
+	.page-section#rsvp {
+		background: url('../images/foto3_ancha.jpg') center center no-repeat;
+		background-size: cover;
+	}
+
 }
 .btn {
 	font-weight: 200;
