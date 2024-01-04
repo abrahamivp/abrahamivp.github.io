@@ -146,7 +146,10 @@ h3 {
 		background: url('../images/foto3_ancha.jpg') center center no-repeat;
 		background-size: cover;
 	}
-
+	.page-section#registry {
+		background: url('../images/foto2_ancha.jpg') bottom center no-repeat;
+		background-size: cover;
+	}
 }
 .btn {
 	font-weight: 200;
@@ -389,9 +392,9 @@ hr {border-color: #ddd;}
 	/*.header {
 		position: relative;
 	}                       Still need to address too-large top nav in mobile */
-	.page-section {
+	/*.page-section {
 		padding: 0 0 50px 0;
-	}
+	}*/
 	.page-section div.bubble {
 		border-radius: 0;
 	}
