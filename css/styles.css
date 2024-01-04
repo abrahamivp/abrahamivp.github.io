@@ -81,13 +81,15 @@ p {
 	background-color: #222222;
 	background-color: rgba(0,0,0,0.6);
 	border-radius: 10px;
-	margin-top: 200px;
 }
 @media (min-width: 1090px) {
 	.photogallery-resize, .reception-page{
 		max-width: 40%;
 		margin-top: 0px !important;
 	}
+	.page-section div.bubble {
+		margin-top: 200px;
+	}	
 }
 h3 {
 	color: darkgray;
