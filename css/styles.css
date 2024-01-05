@@ -11,7 +11,7 @@ p a {
 	color: #C9A781;
 }
 p a:hover {
-	color: #fff;
+	color: #ffffff;
 	text-decoration: none;
 }
 h2 a, a:hover {
@@ -67,7 +67,6 @@ p {
 }
 .page-section p {
 	font-size: 1.2em;
-	font-weight: 100;
 	/*margin: 0 25% 20px 0;*/
 }
 .page-section p.lead {
