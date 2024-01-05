@@ -83,7 +83,7 @@ p {
 @media (min-width: 1090px) {
 	.photogallery-resize, .reception-page{
 		max-width: 40%;
-		margin-top: 0px !important;
+		margin-top: 100px !important;
 	}
 	.page-section div.bubble {
 		margin-top: 200px;
