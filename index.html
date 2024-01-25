@@ -11,7 +11,7 @@
 	<link rel="shortcut icon" href="favicon.ico?v=20190125" type="image/x-icon">
 </head>
 
-<body>
+<body onmousemove="playAudio()">
 <div class="header">
 	<div class="container">
 		<nav class="navbar navbar-inverse" role="navigation">
@@ -251,6 +251,19 @@ if (typeof console === "undefined") {
 		after: function(){}     // Function: After callback
 	});
   });
+</script>
+
+<audio id="musical1" loop>
+	<source src= "audio/Hasta_Ese_Dia.mp3" type="audio/mpeg">
+	este navegador no acepta formatos de audio
+  </audio>
+
+</section>
+
+<script>
+  function playAudio() {
+	document.getElementById("musical1").play();
+  }
 </script>
 
 </body>
